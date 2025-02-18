@@ -1,0 +1,110 @@
+body{
+    margin: 10px;
+    background-color: wheat;
+}
+
+#home{
+    background-color:  #2ba74a;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    }
+    header {
+        font-size: 30px;
+        color: rgb(240, 234, 245);
+        float: left;
+        padding-left: 2cm;
+        font-family:monospace;
+    }
+    .topdiv {
+        float: right;
+        padding-right: 1cm;
+      }
+    .topmenu {
+        color: lightgray;
+        background-color:   #2ba74a;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 1mm;
+        outline: none;
+      }
+       
+    .topmenu:hover {
+        color: white;
+        font-weight: bolder;
+        background-color: #13eb49;
+        text-decoration: underline;
+        
+      }
+
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+button:hover {
+    cursor: pointer;
+}
+#details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:10px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    justify-content: center;
+}
+.b{
+    border-top-style: solid;
+    background-color: white;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: flex;
+}
+.about{
+    border-top-color: blue;
+}
+.project{
+    border-top-color: red;
+}
+.skills{
+    border-top-color: green;
+}
+.recom{
+    border-top-color: purple;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-self: auto;
+}
+figure img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+article{
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    justify-content: center;
+}
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
