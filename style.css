@@ -27,6 +27,7 @@ body {
 .topmenu:hover {
   color: gray;
   text-decoration: underline;
+  font-weight: bolder;
   /* Add the styles here */
 }
 
